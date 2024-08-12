@@ -1,0 +1,23 @@
+div {
+  margin: 10px auto;
+  border: 2px solid;
+  padding: 10px;
+  height: 100px;
+  width: 200px;
+}
+#id-selector-div1 {
+  background-color: palegoldenrod;
+}
+#id-selector-div2 {
+  background-color: pink;
+}
+#id-selector-div3 {
+  background-color: lavender;
+}
+#animateImg {
+  width: 250px;
+  height: 250px;
+  aspect-ratio: (1);
+  opacity: 0.4;
+  position: absolute;
+}

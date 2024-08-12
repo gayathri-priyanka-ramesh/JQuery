@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>JQuery</h1>
+
+    <h2>Selctors</h2>
+    <p>Paragraph 1 outside div tags</p>
+    <p>Paragraph 2 outside div tags</p>
+    <div id="id-selector-div1">
+      <p class="class-selector-para">Paragraph 1 of '#div1'</p>
+      <p class="multiple-selector-class">Paragraph 2 of '#div1</p>
+    </div>
+    <div id="id-selector-div2">
+      <p class="multiple-selector-class">Paragraph 1 of '#div2'</p>
+      <p class="class-selector-para">Paragraph 2 of '#div2</p>
+    </div>
+    <div id="id-selector-div3">
+      <ul>
+        <li>Item 1 (First)</li>
+        <li id="multiple-selector-id">Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4 (Last)</li>
+      </ul>
+    </div>
+    <button onclick="funcTagNameSelector()">Tag Name Selector</button>
+    <button onclick="funcClassSelector()">Class Selector</button>
+    <button onclick="funcIdSelector()">ID Selector</button>
+    <button onclick="funcMultipleIdSelector()">Multiple ID Selector</button>
+    <button onclick="funcMultipleSelector()">Multiple Selector</button>
+    <button onclick="funcChildSelector()">Child Sector</button>
+    <button onclick="funcImmediateChildSelector()">
+      Immediate Child Sector
+    </button>
+    <button onclick="funcFirstElementSelector()">First Element Sector</button>
+    <button onclick="funcLastElementSelector()">Last Element Sector</button>
+    <button onclick="funcOddElementSelector()">Odd Element Sector</button>
+    <button onclick="funcEvenElementSelector()">Even Element Sector</button>
+    <hr />
+
+    <h2>Events</h2>
+    <img src="images/jQuery.jpg" alt="jquey" id="eventImg" />
+    <br />
+    <button onclick="funcEventPureJS()">Event in Pure JS</button>
+    <button id="eventButton">Event in JQuery</button>
+    <button id="readyEventButton">Ready Event</button>
+    <button id="doubleClick">Double Click Event</button>
+    <button id="mouseEvent">Mouse Event</button>
+    <button id="hoverEvent">Hover Event</button>
+
+    <h3>Effects</h3>
+    <button id="fadeInEffect">Fade In</button>
+    <button id="fadeOutEffect">Fade Out in 2s</button>
+    <button onclick="funcFadeToogle1()">FadeToggle</button>
+    <button onclick="funcFadeToogle2()">FadeToggle in 3s</button>
+    <br />
+    <button onclick="hideEffect()">Hide in 3s</button>
+    <button id="showEffect">Show</button>
+    <button id="toggleEffect">Toggle in 2s</button>
+    <br />
+    <button id="slideUpEffect">Slide Up</button>
+    <button id="slideDownEffect">Slide Down</button>
+    <button id="slideToggleEffect">Slide Toggle</button>
+    <br />
+    <button id="stopEvent">Stop</button>
+    <hr />
+
+    <h3>Animate</h3>
+    <button id="animateButton">Animate</button>
+    <img src="images/jQuery.jpg" alt="jquey" id="animateImg" />
+  </body>
+  <!-- Downloaded File -->
+  <script src="library/jquery.js" type="text/javascript"></script>
+
+  <!-- CDNJS CDN Link -->
+  <!-- <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script> -->
+  <script src="script.js" type="text/javascript"></script>
+</html>

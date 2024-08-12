@@ -1,0 +1,25 @@
+Usage:
+Download the file to system:
+    Open uncompressed file in browser from 'https://jquery.com/download/'
+    Click 'Ctrl+S' on the code page on browser
+    Save the file in 'library' folder as 'jquery.js'
+    Include the JQuery Lib File in HTML Document using 
+        '<script src="library/jquery.js" type="text/javascript"></script>'
+
+CDN Link
+    Open 'CDNJS CDN' from 'https://jquery.com/download/'
+    Copy the latest version with 'Copy with Script Tag' and paste in HTML Document
+        '<script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+            integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>'
+    Same for other CDN links
+    Google CDN
+        '<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>'
+    Microsoft CDN
+        '<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.1.js"></script>'
+    JsDelivr CDN
+        '<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>'
+
